@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-
         <div>
           <b-navbar toggleable="lg" type="dark" variant="info">
             <b-navbar-brand href="#">ExamResource</b-navbar-brand>
@@ -9,11 +8,18 @@
 
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav>
-                <b-nav-item to="/chemistry" exact exact-active-class="active">Chemistry</b-nav-item>
-                <b-nav-item to="/english" exact exact-active-class="active">English</b-nav-item>
-                <b-nav-item to="/math" exact exact-active-class="active">Math</b-nav-item>
-                <b-nav-item to="/physics" exact exact-active-class="active">Physics</b-nav-item>
-                <b-nav-item to="/" exact exact-active-class="active">Subject</b-nav-item>
+                <b-nav-item to="/" exact exact-active-class="active">All Subjects</b-nav-item>
+                <b-nav-item-dropdown text="Select a Subject" right>
+                  <b-dropdown-item to="/biology" exact exact-active-class="active">Biology</b-dropdown-item>
+                  <b-dropdown-item to="/chemistry" exact exact-active-class="active">Chemistry</b-dropdown-item>
+                  <b-dropdown-item to="/commerce" exact exact-active-class="active">Commerce</b-dropdown-item>
+                  <b-dropdown-item to="/economics" exact exact-active-class="active">Economics</b-dropdown-item>
+                  <b-dropdown-item to="/english" exact exact-active-class="active">English</b-dropdown-item>
+                  <b-dropdown-item to="/government" exact exact-active-class="active">Government</b-dropdown-item>
+                  <b-dropdown-item to="/literature" exact exact-active-class="active">Literature</b-dropdown-item>
+                  <b-dropdown-item to="/math" exact exact-active-class="active">Math</b-dropdown-item>
+                  <b-dropdown-item to="/physics" exact exact-active-class="active">Physics</b-dropdown-item>
+                </b-nav-item-dropdown>
               </b-navbar-nav>
 
               <!-- Right aligned nav items -->
@@ -22,13 +28,6 @@
                   <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
                   <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
                 </b-nav-form>
-
-                <b-nav-item-dropdown text="Lang" right>
-                  <b-dropdown-item href="#">EN</b-dropdown-item>
-                  <b-dropdown-item href="#">ES</b-dropdown-item>
-                  <b-dropdown-item href="#">RU</b-dropdown-item>
-                  <b-dropdown-item href="#">FA</b-dropdown-item>
-                </b-nav-item-dropdown>
 
                 <b-nav-item-dropdown right>
                   <!-- Using 'button-content' slot -->
@@ -51,15 +50,15 @@
             <p>Start exploring Chemistry resources and questions by topic</p>
         </div>
         <b-list-group>
-            <b-list-group-item href="#">Default list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="primary">Primary list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="secondary">Secondary list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="success">Success list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="danger">Danger list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="warning">Warning list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="info">Info list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="light">Light list group item</b-list-group-item>
-            <b-list-group-item href="#" variant="dark">Dark list group item</b-list-group-item>
+            <b-list-group-item to="chemistry/topic1">Topic 1</b-list-group-item>
+            <b-list-group-item to="chemistry/topic2" variant="primary">Topic 2</b-list-group-item>
+            <b-list-group-item to="chemistry/topic3" variant="secondary">Topic 3</b-list-group-item>
+            <b-list-group-item to="chemistry/topic4" variant="success">Topic 4</b-list-group-item>
+            <b-list-group-item to="chemistry/topic5" variant="danger">Topic 5</b-list-group-item>
+            <b-list-group-item to="chemistry/topic6" variant="warning">Topic 6</b-list-group-item>
+            <b-list-group-item to="chemistry/topic7" variant="info">Topic 7</b-list-group-item>
+            <b-list-group-item to="chemistry/topic8" variant="light">Topic 8</b-list-group-item>
+            <b-list-group-item to="chemistry/topic9" variant="dark">Topic 9</b-list-group-item>
         </b-list-group>
     </div>
 </template>
@@ -74,3 +73,5 @@
     font-size: 1.5rem;
   }
 </style>
+
+

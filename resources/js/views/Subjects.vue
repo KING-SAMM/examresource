@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1>Subjects Component</h1>
+        <h1>Jamb UTME Subjects</h1>
         <p>Select a subject</p>
 
         <div>
@@ -36,27 +36,35 @@
 
       <b-card bg-variant="warning" text-variant="white" header="JAMB" class="text-center">
         <router-link to="/biology" class="text">
-        <b-card-text>Biology</b-card-text>
+          <b-card-text>Biology</b-card-text>
         </router-link>
       </b-card>
 
       <b-card bg-variant="danger" text-variant="white" header="JAMB" class="text-center">
-        <b-card-text>Commerce</b-card-text>
+        <router-link to="/commerce" class="text">
+          <b-card-text>Commerce</b-card-text>
+        </router-link>
       </b-card>
     </b-card-group>
   </div>
   <div class="mt-3">
     <b-card-group deck>
       <b-card id="government" header="JAMB" class="text-center">
-        <b-card-text>Government</b-card-text>
+        <router-link to="/government" class="darkText">
+          <b-card-text>Government</b-card-text>
+        </router-link>
       </b-card>
 
       <b-card bg-variant="dark" header="JAMB" text-variant="white" class="text-center">
-        <b-card-text>Literature</b-card-text>
+        <router-link to="/literature" class="text">
+          <b-card-text>Literature</b-card-text>
+        </router-link>
       </b-card>
 
       <b-card id="economics" header="JAMB" class="text-center">
-        <b-card-text>Economics</b-card-text>
+        <router-link to="/economics" class="darkText">
+          <b-card-text>Economics</b-card-text>
+        </router-link>
       </b-card>
     </b-card-group>
   </div>
@@ -89,6 +97,11 @@
 
     #government {
       background-color: chartreuse;
+    }
+
+    .darkText{
+      color: #333;
+      text-decoration: none;
     }
 </style>
 

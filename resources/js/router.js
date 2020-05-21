@@ -1,26 +1,52 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Subjects from './views/Subjects.vue';
+
+/* Biology */
+import Biology from './views/Biology.vue';
+import BTopic1 from './views/BiologyTopics/BTopic1.vue';
+import BTopic2 from './views/BiologyTopics/BTopic2.vue';
+import BTopic3 from './views/BiologyTopics/BTopic3.vue';
+import BTopic4 from './views/BiologyTopics/BTopic4.vue';
+
+/* Chemistry */
 import Chemistry from './views/Chemistry.vue';
+import Topic1 from './views/ChemistryTopics/Topic1.vue';
+import Topic2 from './views/ChemistryTopics/Topic2.vue';
+import Topic3 from './views/ChemistryTopics/Topic3.vue';
+import Topic4 from './views/ChemistryTopics/Topic4.vue';
+
+/* Commerce */
+import Commerce from './views/Commerce.vue';
+import CTopic1 from './views/CommerceTopics/CTopic1.vue';
+import CTopic2 from './views/CommerceTopics/CTopic2.vue';
+import CTopic3 from './views/CommerceTopics/CTopic3.vue';
+import CTopic4 from './views/CommerceTopics/CTopic4.vue';
+
+/* Economics */
+import Economics from './views/Economics.vue';
+import ETopic1 from './views/EconomicsTopics/ETopic1.vue';
+import ETopic2 from './views/EconomicsTopics/ETopic2.vue';
+import ETopic3 from './views/EconomicsTopics/ETopic3.vue';
+import ETopic4 from './views/EconomicsTopics/ETopic4.vue';
 import English from './views/English.vue';
-import AC from './views/PhysicsTopics/AC.vue';
-import CircularMotion from './views/PhysicsTopics/CircularMotion.vue';
-import CurrentElectricity from './views/PhysicsTopics/CurrentElectricity.vue';
-import DimensionalAnalysis from './views/PhysicsTopics/DimensionalAnalysis.vue'
-import Elasticity from './views/PhysicsTopics/Elasticity.vue';
-import ElectromagneticInduction from './views/PhysicsTopics/ElectromagneticInduction.vue';
-import Electrostatics from './views/PhysicsTopics/Electrostatics.vue';
-import GasLaws from './views/PhysicsTopics/GasLaws.vue';
-import HeatEnergy from './views/PhysicsTopics/HeatEnergy.vue';
-import LinearMotion from './views/PhysicsTopics/LinearMotion.vue';
-import MagneticFields from './views/PhysicsTopics/MagneticFields.vue';
-import Measurements from './views/PhysicsTopics/Measurements.vue';
-import QuantumMechanics from './views/PhysicsTopics/QuantumMechanics.vue';
-import Radioactivity from './views/PhysicsTopics/Radioactivity.vue';
-import Semiconductors from './views/PhysicsTopics/Semiconductors.vue';
-import SimpleHarmonicMotion from './views/PhysicsTopics/SimpleHarmonicMotion.vue';
-import Temperature from './views/PhysicsTopics/Temperature.vue';
-import Physics from './views/Physics.vue';
+
+/* Government */
+import Government from './views/Government.vue';
+import GTopic1 from './views/GovernmentTopics/GTopic1.vue';
+import GTopic2 from './views/GovernmentTopics/GTopic2.vue';
+import GTopic3 from './views/GovernmentTopics/GTopic3.vue';
+import GTopic4 from './views/GovernmentTopics/GTopic4.vue';
+
+/* Literature */
+import Literature from './views/Literature.vue';
+import LTopic1 from './views/LiteratureTopics/LTopic1.vue';
+import LTopic2 from './views/LiteratureTopics/LTopic2.vue';
+import LTopic3 from './views/LiteratureTopics/LTopic3.vue';
+import LTopic4 from './views/LiteratureTopics/LTopic4.vue';
+
+/* Mathematics */
+import Math from './views/Math.vue';
 import Angles from './views/MathTopics/Angles.vue';
 import BearingsDistances from './views/MathTopics/BearingsDistances.vue';
 import BinaryOperations from './views/MathTopics/BinaryOperations.vue';
@@ -52,8 +78,26 @@ import Statistics from './views/MathTopics/Statistics.vue';
 import Surds from './views/MathTopics/Surds.vue';
 import Trigonometry from './views/MathTopics/Trigonometry.vue';
 import Variation from './views/MathTopics/Variation.vue';
-import Math from './views/Math.vue';
 
+/* Physics */
+import Physics from './views/Physics.vue';
+import AC from './views/PhysicsTopics/AC.vue';
+import CircularMotion from './views/PhysicsTopics/CircularMotion.vue';
+import CurrentElectricity from './views/PhysicsTopics/CurrentElectricity.vue';
+import DimensionalAnalysis from './views/PhysicsTopics/DimensionalAnalysis.vue'
+import Elasticity from './views/PhysicsTopics/Elasticity.vue';
+import ElectromagneticInduction from './views/PhysicsTopics/ElectromagneticInduction.vue';
+import Electrostatics from './views/PhysicsTopics/Electrostatics.vue';
+import GasLaws from './views/PhysicsTopics/GasLaws.vue';
+import HeatEnergy from './views/PhysicsTopics/HeatEnergy.vue';
+import LinearMotion from './views/PhysicsTopics/LinearMotion.vue';
+import MagneticFields from './views/PhysicsTopics/MagneticFields.vue';
+import Measurements from './views/PhysicsTopics/Measurements.vue';
+import QuantumMechanics from './views/PhysicsTopics/QuantumMechanics.vue';
+import Radioactivity from './views/PhysicsTopics/Radioactivity.vue';
+import Semiconductors from './views/PhysicsTopics/Semiconductors.vue';
+import SimpleHarmonicMotion from './views/PhysicsTopics/SimpleHarmonicMotion.vue';
+import Temperature from './views/PhysicsTopics/Temperature.vue';
 
 Vue.use(Router)
 
@@ -67,14 +111,201 @@ export default new Router({
       component: Subjects
     },
     {
+      path: '/biology',
+      name: 'biologyview',
+      component: () => import('./views/BiologyView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'biology',
+          component: Biology
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: BTopic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: BTopic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: BTopic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: BTopic4
+        }
+      ]
+    },
+    {
       path: '/chemistry',
-      name: 'chemistry',
-      component: Chemistry
+      name: 'chemistryview',
+      component: () => import('./views/ChemistryView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'chemistry',
+          component: Chemistry
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: Topic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: Topic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: Topic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: Topic4
+        }
+      ]
+    },
+    {
+      path: '/commerce',
+      name: 'commerceview',
+      component: () => import('./views/CommerceView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'commerce',
+          component: Commerce
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: CTopic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: CTopic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: CTopic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: CTopic4
+        }
+      ]
+    },
+    {
+      path: '/economics',
+      name: 'economicsview',
+      component: () => import('./views/EconomicsView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'economics',
+          component: Economics
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: ETopic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: ETopic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: ETopic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: ETopic4
+        }
+      ]
     },
     {
       path: '/english',
       name: 'english',
       component: English
+    },
+    {
+      path: '/government',
+      name: 'governmentview',
+      component: () => import('./views/GovernmentView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'government',
+          component: Government
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: GTopic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: GTopic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: GTopic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: GTopic4
+        }
+      ]
+    },
+    {
+      path: '/literature',
+      name: 'literatureview',
+      component: () => import('./views/LiteratureView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'literature',
+          component: Literature
+        },
+        {
+          path: 'topic1',
+          name: 'topic1',
+          component: LTopic1
+        },
+        {
+          path: 'topic2',
+          name: 'topic2',
+          component: LTopic2
+        },
+        {
+          path: 'topic3',
+          name: 'topic',
+          component: LTopic3
+        },
+        {
+          path: 'topic4',
+          name: 'topic4',
+          component: LTopic4
+        }
+      ]
     },
     {
       path: '/physics',
