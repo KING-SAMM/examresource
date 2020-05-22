@@ -132,7 +132,7 @@ export default new Router({
         },
         {
           path: 'topic3',
-          name: 'topic',
+          name: 'topic3',
           component: BTopic3
         },
         {
@@ -570,6 +570,10 @@ export default new Router({
           component: Variation
         }
       ]
+    },
+    {
+      path: '/*',
+      redirect: { name: 'subjects' }
     }
   ],
   linkActiveClass: 'active'
