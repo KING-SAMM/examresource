@@ -103,6 +103,15 @@
       color: #333;
       text-decoration: none;
     }
+
+    .text-center {
+      transform: scaleX(1);
+      transition: transform 0.5s;
+    }
+
+    .text-center:hover {
+      transform: scaleX(1.1);
+    }
 </style>
 
 
