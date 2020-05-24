@@ -6,7 +6,6 @@
 .env
 .env.backup
 .netlify
-/dist
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
