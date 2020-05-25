@@ -106,7 +106,7 @@
 
     .text-center {
       transform: scaleX(1);
-      transition: transform 0.5s;
+      transition: transform 0.1s;
     }
 
     .text-center:hover {

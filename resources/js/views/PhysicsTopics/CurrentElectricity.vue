@@ -9,12 +9,32 @@
 
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-            <b-nav-item to="/chemistry" exact exact-active-class="active">Chemistry</b-nav-item>
-            <b-nav-item to="/english" exact exact-active-class="active">English</b-nav-item>
-            <b-nav-item to="/math" exact exact-active-class="active">Math</b-nav-item>
-            <b-nav-item to="/physics" exact exact-active-class="active">Physics</b-nav-item>
-            <b-nav-item to="/" exact exact-active-class="active">Subject</b-nav-item>
-            </b-navbar-nav>
+              <b-nav-item-dropdown text="Select a Subject">
+                <b-dropdown-item to="/biology" exact exact-active-class="active">Biology</b-dropdown-item>
+                <b-dropdown-item to="/chemistry" exact exact-active-class="active">Chemistry</b-dropdown-item>
+                <b-dropdown-item to="/commerce" exact exact-active-class="active">Commerce</b-dropdown-item>
+                <b-dropdown-item to="/economics" exact exact-active-class="active">Economics</b-dropdown-item>
+                <b-dropdown-item to="/english" exact exact-active-class="active">English</b-dropdown-item>
+                <b-dropdown-item to="/government" exact exact-active-class="active">Government</b-dropdown-item>
+                <b-dropdown-item to="/literature" exact exact-active-class="active">Literature</b-dropdown-item>
+                <b-dropdown-item to="/math" exact exact-active-class="active">Math</b-dropdown-item>
+                <b-dropdown-item to="/physics" exact exact-active-class="active">Physics</b-dropdown-item>
+              </b-nav-item-dropdown>
+             </b-navbar-nav>
+             
+             <b-navbar-nav>
+               <b-nav-item-dropdown text="Topics">
+                <b-dropdown-item to="/physics/measurements" exact exact-active-class="active">Measurements</b-dropdown-item>
+                <b-dropdown-item to="/physics/dimensional-analysis" exact exact-active-class="active">Dimensional Analysis</b-dropdown-item>
+                <b-dropdown-item to="/physics/elasticity" exact exact-active-class="active">Elasticity</b-dropdown-item>
+                <b-dropdown-item to="/physics/surface-tension" exact exact-active-class="active">Surface Tension</b-dropdown-item>
+                <b-dropdown-item to="/physics/matter" exact exact-active-class="active">Matter</b-dropdown-item>
+                <b-dropdown-item to="/physics/friction-and-viscosity" exact exact-active-class="active">Friction and Viscosity</b-dropdown-item>
+                <b-dropdown-item to="/physics/floatation" exact exact-active-class="active">Floatationy</b-dropdown-item>
+                <b-dropdown-item to="/physics/electrostatics" exact exact-active-class="active">Electrostatics</b-dropdown-item>
+                <b-dropdown-item to="/physics/temperature-and-thermometry" exact exact-active-class="active">Temperature and Thermometry</b-dropdown-item>
+              </b-nav-item-dropdown>
+             </b-navbar-nav>
 
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
@@ -22,13 +42,6 @@
                 <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
                 <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
             </b-nav-form>
-
-            <b-nav-item-dropdown text="Lang" right>
-                <b-dropdown-item href="#">EN</b-dropdown-item>
-                <b-dropdown-item href="#">ES</b-dropdown-item>
-                <b-dropdown-item href="#">RU</b-dropdown-item>
-                <b-dropdown-item href="#">FA</b-dropdown-item>
-            </b-nav-item-dropdown>
 
             <b-nav-item-dropdown right>
                 <!-- Using 'button-content' slot -->

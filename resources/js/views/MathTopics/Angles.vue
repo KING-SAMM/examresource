@@ -32,6 +32,18 @@
                 <b-dropdown-item to="/math/circle-geometry" exact exact-active-class="active">Circle Geometry</b-dropdown-item>
                 <b-dropdown-item to="/math/coordinategeo" exact exact-active-class="active">Coordinate Geometry</b-dropdown-item>
                 <b-dropdown-item to="/math/factorisation" exact exact-active-class="active">Factorisation</b-dropdown-item>
+                <b-dropdown-item to="/math/inequalities" exact exact-active-class="active">Inequalities</b-dropdown-item>
+                <b-dropdown-item to="/math/indices" exact exact-active-class="active">Indices</b-dropdown-item>
+                <b-dropdown-item to="/math/limits" exact exact-active-class="active">Limits</b-dropdown-item>
+                <b-dropdown-item to="/math/loci" exact exact-active-class="active">Loci</b-dropdown-item>
+                <b-dropdown-item to="/math/logarithms" exact exact-active-class="active">Logarithm</b-dropdown-item>
+                <b-dropdown-item to="/math/matrices" exact exact-active-class="active">Matrices and Determinants</b-dropdown-item>
+                <b-dropdown-item to="/math/maxmin" exact exact-active-class="active">Maxima and Minima</b-dropdown-item>
+                <b-dropdown-item to="/math/mensuration-of-plane-shapes" exact exact-active-class="active">Mensuration of Plane Shapes</b-dropdown-item>
+                <b-dropdown-item to="/math/mensuration-of-solid-shapes" exact exact-active-class="active">Mensuration of Solid Shapes</b-dropdown-item>
+                <b-dropdown-item to="/math/number-systems" exact exact-active-class="active">Number Bases</b-dropdown-item>
+                <b-dropdown-item to="/math/permutation-and-combination" exact exact-active-class="active">Permutation and Combination</b-dropdown-item>
+                <b-dropdown-item to="/math/plane-geometry" exact exact-active-class="active">Plane Geometry</b-dropdown-item>
               </b-nav-item-dropdown>
              </b-navbar-nav>
 
