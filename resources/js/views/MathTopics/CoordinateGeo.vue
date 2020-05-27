@@ -66,6 +66,7 @@
             </b-navbar-nav>
         </b-collapse>
         </b-navbar>
+       
     </div>
     <h1>Coordinate Geometry Questions</h1>
     <div class="input-group">
