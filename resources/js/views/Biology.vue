@@ -1,8 +1,10 @@
 <template>
+  <div>
+    <SubjectsNav />
     <div class="container">
-        <SubjectsNav />
         <Biology />
     </div>
+  </div>
 </template>
 
 <script>

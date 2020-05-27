@@ -9,38 +9,34 @@
         </div>
 
         <b-list-group>
-          <b-list-group-item to="/physics/measurements">Measurements</b-list-group-item>
-          <b-list-group-item to="/physics/dimensional-analysis" variant="primary">Dimensional Analysis</b-list-group-item>
-          <b-list-group-item to="/physics/elasticity" variant="secondary">Elasticity</b-list-group-item>
-          <b-list-group-item to="/physics/surface-tension" variant="success">Surface Tension</b-list-group-item>
-          <b-list-group-item to="/physics/matter" variant="danger">Matter</b-list-group-item>
-          <b-list-group-item to="/physics/friction-and-viscosity" variant="warning">Friction and Viscosity</b-list-group-item>
-          <b-list-group-item to="/physics/floatation" variant="info">Floatation</b-list-group-item>
-          <b-list-group-item to="/physics/electrostatics" variant="light">Electrostatics</b-list-group-item>
-          <b-list-group-item to="/physics/temperature-and-thermometry" variant="dark">Temperature and Thermometry</b-list-group-item>
-          <b-list-group-item to="/physics/heat-energy">Heat Energy</b-list-group-item>
-          <b-list-group-item to="/physics/gas-laws" variant="primary">Gas Laws</b-list-group-item>
-          <b-list-group-item to="/physics/linear-motion" variant="secondary">Linear Motion</b-list-group-item>
-          <b-list-group-item to="/physics/circular-motion" variant="success">Circular Motion</b-list-group-item>
-          <b-list-group-item to="/physics/simple-harmonic-motion" variant="danger">Simplen Harmonic Motion</b-list-group-item>
-          <b-list-group-item to="/physics/simple-machines" variant="warning">Simple Machines</b-list-group-item>
-          <b-list-group-item to="/physics/pressure-in-fluids" variant="info">Pressure in Fluids</b-list-group-item>
-          <b-list-group-item to="/physics/moments-and-equilibrium" variant="light">Moments and Equilibrium</b-list-group-item>
-          <b-list-group-item to="/physics/work-energy-and-power" variant="dark">Work Energy and Power</b-list-group-item>
-          <b-list-group-item to="/physics/expansivity">Expansivity</b-list-group-item>
-          <b-list-group-item to="/physics/current-electricity" variant="primary">Current Electricity</b-list-group-item>
-          <b-list-group-item to="/physics/magnetic-fields" variant="secondary">Magnets and Magnetic Fields</b-list-group-item>
-          <b-list-group-item to="/physics/electromagnetic-induction" variant="success">Electromagnetic Induction</b-list-group-item>
-          <b-list-group-item to="/physics/ac-circuits" variant="danger">A.C. Circuits</b-list-group-item>
-          <b-list-group-item to="/physics/capacitors-and-parallel-plate-capacitors" variant="warning">Capacitors and Parallel-Plate Capacitors</b-list-group-item>
-          <b-list-group-item to="/physics/waves" variant="info">Waves</b-list-group-item>
-          <b-list-group-item to="/physics/light-and-optical-instruments" variant="light">Light and Optical Instruments</b-list-group-item>
-          <b-list-group-item to="/physics/fields" variant="dark">Fields</b-list-group-item>
-          <b-list-group-item to="/physics/nuclear-energy-and-radioactivity">Nuclear Energy and Radioactivity</b-list-group-item>
-          <b-list-group-item to="/physics/semiconductors" variant="primary">Semiconductors</b-list-group-item>
-          <b-list-group-item to="/physics/quantum-mechanics" variant="secondary">Quantum Mechanics</b-list-group-item>
-          <!-- <b-list-group-item to="/physics/quantum-mechanics" variant="secondary">Quantum Mechanics</b-list-group-item> -->
-          <!-- <b-list-group-item to="/physics/heisenbergs-uncertainty-principle" variant="success">Heisenberg's Uncertainty Principle</b-list-group-item> -->
+          <b-list-group-item to="/physics/ac-circuits">A.C Circuits</b-list-group-item>
+          <b-list-group-item to="/physics/application-of-sound-waves" variant="primary">Application of Light WAves</b-list-group-item>
+          <b-list-group-item to="/physics/circular-and-shm" variant="secondary">Circular and Simple Harmonic Motion</b-list-group-item>
+          <b-list-group-item to="/physics/conduction-through-liquids" variant="success">Conduction Through Fluids</b-list-group-item>
+          <b-list-group-item to="/physics/matter" variant="danger">Current Electricity</b-list-group-item>
+          <b-list-group-item to="/physics/electric-field" variant="warning">Electric Field</b-list-group-item>
+          <b-list-group-item to="/physics/electrostatics" variant="info">Electrostatics</b-list-group-item>
+          <b-list-group-item to="/physics/electromagnetic-fields" variant="light">Electromagnetic Fields</b-list-group-item>
+          <b-list-group-item to="/physics/wlasticity-matter-crystal-structure" variant="dark">Elasticity/Nature of Matter/Crystal Structure</b-list-group-item>
+          <b-list-group-item to="/physics/equilibrium">Equilibrium</b-list-group-item>
+          <b-list-group-item to="/physics/expansivity" variant="primary">Expansivity</b-list-group-item>
+          <b-list-group-item to="/physics/fluids-at-rest-or-in-motion" variant="secondary">Fluids at Rest or in Motion</b-list-group-item>
+          <b-list-group-item to="/physics/gas-laws" variant="success">Gas Laws</b-list-group-item>
+          <b-list-group-item to="/physics/gravitional-field" variant="danger">Gravitational Field</b-list-group-item>
+          <b-list-group-item to="/physics/heat-energy" variant="warning">Heat Energy</b-list-group-item>
+          <b-list-group-item to="/physics/measurements" variant="info">Measurements</b-list-group-item>
+          <b-list-group-item to="/physics/motion" variant="light">Motion</b-list-group-item>
+          <b-list-group-item to="/physics/optical-instruments" variant="dark">Optical Instruments</b-list-group-item>
+          <b-list-group-item to="/physics/pressure-in-fluids">Pressure in Fluids</b-list-group-item>
+          <b-list-group-item to="/physics/qm-semiconductors" variant="primary">Quantum Mechanics and Semiconductors</b-list-group-item>
+          <b-list-group-item to="/physics/radioactivity-and-nuclear-energy" variant="secondary">Radioactivity and Nuclear Energy</b-list-group-item>
+          <b-list-group-item to="/physics/reflection-of-light" variant="success">Reflection of Light</b-list-group-item>
+          <b-list-group-item to="/physics/refraction-of-light" variant="danger">Refraction of Light</b-list-group-item>
+          <b-list-group-item to="/physics/scalars-and-vectors" variant="warning">Scalars and Vectors</b-list-group-item>
+          <b-list-group-item to="/physics/simple-machines" variant="info">Simple Machines</b-list-group-item>
+          <b-list-group-item to="/physics/sound-waves" variant="light">Sound Waves</b-list-group-item>
+          <b-list-group-item to="/physics/waves" variant="dark">Waves</b-list-group-item>
+          <b-list-group-item to="/physics/work-energy-power">Work, Energy and Power</b-list-group-item>
         </b-list-group>
     </div>
 </template>

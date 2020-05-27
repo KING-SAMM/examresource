@@ -3,6 +3,15 @@
 /public/storage
 /storage/*.key
 /vendor
+
+/dist
+.firebaserc
+.netlify
+.firebaserc
+firebase.json
+netlify.toml
+
+
 .env
 .env.backup
 .netlify

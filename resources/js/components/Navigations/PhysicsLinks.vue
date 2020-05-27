@@ -10,7 +10,7 @@
                 <b-dropdown-item to="/physics/electric-field" exact exact-active-class="active">Electric Field</b-dropdown-item>
                 <b-dropdown-item to="/physics/electrostatics" exact exact-active-class="active">Electrostatics</b-dropdown-item>
                 <b-dropdown-item to="/physics/electromagnetic-fields" exact exact-active-class="active">Electromagnetic Fields</b-dropdown-item>
-                <b-dropdown-item to="/physics/elasticity-matter-crystal-structure" exact exact-active-class="active">Elasticity/Nature of Matter/Crystal Structure</b-dropdown-item>
+                <b-dropdown-item to="/physics/elasticity-matter-crystal-structure" exact exact-active-class="active">Elasticity/Nature of Matter/<br>Crystal Structure</b-dropdown-item>
                 <b-dropdown-item to="/physics/equilibrium" exact exact-active-class="active">Equilibrium</b-dropdown-item>
                 <b-dropdown-item to="/physics/expansivity" exact exact-active-class="active">Expansivity</b-dropdown-item>
                 <b-dropdown-item to="/physics/fluids-at-rest-or-in-motion" exact exact-active-class="active">Fluids at Rest or in Motion</b-dropdown-item>

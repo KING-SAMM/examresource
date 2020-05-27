@@ -1,8 +1,10 @@
 <template>
-    <div class="container">
-        <SubjectsNav />
-        <English />
-    </div>
+   <div>
+      <SubjectsNav />
+      <div class="container">
+          <English />
+      </div>
+   </div>
 </template>
 
 <script>

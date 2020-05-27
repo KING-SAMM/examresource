@@ -1,7 +1,9 @@
 <template>
-    <div class="container">
-        <SubjectsNav />
-        <Chemistry />
+    <div>
+      <SubjectsNav /> 
+      <div class="container">
+          <Chemistry />
+      </div>
     </div>
 </template>
 
