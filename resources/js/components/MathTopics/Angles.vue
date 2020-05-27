@@ -150,17 +150,3 @@
   }
 
 </style>
-<!--
-Uncaught ReferenceError: SubjectsNav is not defined
-    at Module../node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navigations/SubjectsNav.vue?vue&type=script&lang=js& (app.js:2506)
-    at __webpack_require__ (app.js:64)
-    at Module../resources/js/components/Navigations/SubjectsNav.vue?vue&type=script&lang=js& (app.js:175881)
-    at __webpack_require__ (app.js:64)
-    at Module../resources/js/components/Navigations/SubjectsNav.vue (app.js:175845)
-    at __webpack_require__ (app.js:64)
-    at Module../node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Biology.vue?vue&type=script&lang=js& (app.js:2615)
-    at __webpack_require__ (app.js:64)
-    at Module../resources/js/views/Biology.vue?vue&type=script&lang=js& (app.js:176702)
-    at __webpack_require__ (app.js:64)
-
-    -->

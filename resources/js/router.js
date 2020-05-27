@@ -81,23 +81,35 @@ import Variation from './views/MathTopics/Variation.vue';
 
 /* Physics */
 import Physics from './views/Physics.vue';
-import AC from './views/PhysicsTopics/AC.vue';
-import CircularMotion from './views/PhysicsTopics/CircularMotion.vue';
+import ACCircuits from './views/PhysicsTopics/ACCircuits.vue';
+import ApplOfLightWaves from './views/PhysicsTopics/ApplOfLightWaves.vue';
+import CircularAndSHM from './views/PhysicsTopics/CircularAndSHM.vue';
+import ConductionThruFluids from './views/PhysicsTopics/ConductionThruFluids.vue'
 import CurrentElectricity from './views/PhysicsTopics/CurrentElectricity.vue';
-import DimensionalAnalysis from './views/PhysicsTopics/DimensionalAnalysis.vue'
-import Elasticity from './views/PhysicsTopics/Elasticity.vue';
-import ElectromagneticInduction from './views/PhysicsTopics/ElectromagneticInduction.vue';
+import ElectricField from './views/PhysicsTopics/ElectricField.vue';
 import Electrostatics from './views/PhysicsTopics/Electrostatics.vue';
+import EMFields from './views/PhysicsTopics/EMFields.vue';
+import ENC from './views/PhysicsTopics/ENC.vue';
+import Equilibrium from './views/PhysicsTopics/Equilibrium.vue';
+import Expansivity from './views/PhysicsTopics/Expansivity.vue';
+import FRM from './views/PhysicsTopics/FRM.vue';
 import GasLaws from './views/PhysicsTopics/GasLaws.vue';
+import GravitationalField from './views/PhysicsTopics/GravitationalField.vue';
 import HeatEnergy from './views/PhysicsTopics/HeatEnergy.vue';
-import LinearMotion from './views/PhysicsTopics/LinearMotion.vue';
-import MagneticFields from './views/PhysicsTopics/MagneticFields.vue';
 import Measurements from './views/PhysicsTopics/Measurements.vue';
-import QuantumMechanics from './views/PhysicsTopics/QuantumMechanics.vue';
-import Radioactivity from './views/PhysicsTopics/Radioactivity.vue';
-import Semiconductors from './views/PhysicsTopics/Semiconductors.vue';
-import SimpleHarmonicMotion from './views/PhysicsTopics/SimpleHarmonicMotion.vue';
-import Temperature from './views/PhysicsTopics/Temperature.vue';
+import Motion from './views/PhysicsTopics/Motion.vue';
+import OpticalInstruments from './views/PhysicsTopics/OpticalInstruments.vue';
+import PressureInFluids from './views/PhysicsTopics/PressureInFluids.vue';
+import QMSemiconductors from './views/PhysicsTopics/QMSemiconductors.vue';
+import RadioactivityNuclearEnergy from './views/PhysicsTopics/RadioactivityNuclearEnergy.vue';
+import ReflectionOfLight from './views/PhysicsTopics/ReflectionOfLight.vue';
+import RefractionOfLight from './views/PhysicsTopics/RefractionOfLight.vue';
+import ScalarsVectors from './views/PhysicsTopics/ScalarsVectors.vue';
+import SimpleMachines from './views/PhysicsTopics/SimpleMachines.vue';
+import SoundWaves from './views/PhysicsTopics/SoundWaves.vue';
+import Waves from './views/PhysicsTopics/Waves.vue';
+import WorkEnergyPower from './views/PhysicsTopics/WorkEnergyPower.vue';
+
 
 Vue.use(Router)
 
@@ -121,23 +133,23 @@ export default new Router({
           component: Biology
         },
         {
-          path: 'topic1',
-          name: 'topic1',
+          path: 'btopic1',
+          name: 'btopic1',
           component: BTopic1
         },
         {
-          path: 'topic2',
-          name: 'topic2',
+          path: 'btopic2',
+          name: 'btopic2',
           component: BTopic2
         },
         {
-          path: 'topic3',
-          name: 'topic3',
+          path: 'btopic3',
+          name: 'btopic3',
           component: BTopic3
         },
         {
-          path: 'topic4',
-          name: 'topic4',
+          path: 'btopic4',
+          name: 'btopic4',
           component: BTopic4
         }
       ]
@@ -185,23 +197,23 @@ export default new Router({
           component: Commerce
         },
         {
-          path: 'topic1',
-          name: 'topic1',
+          path: 'ctopic1',
+          name: 'ctopic1',
           component: CTopic1
         },
         {
-          path: 'topic2',
-          name: 'topic2',
+          path: 'ctopic2',
+          name: 'ctopic2',
           component: CTopic2
         },
         {
-          path: 'topic3',
-          name: 'topic',
+          path: 'ctopic3',
+          name: 'ctopic',
           component: CTopic3
         },
         {
-          path: 'topic4',
-          name: 'topic4',
+          path: 'ctopic4',
+          name: 'ctopic4',
           component: CTopic4
         }
       ]
@@ -217,23 +229,23 @@ export default new Router({
           component: Economics
         },
         {
-          path: 'topic1',
-          name: 'topic1',
+          path: 'etopic1',
+          name: 'etopic1',
           component: ETopic1
         },
         {
-          path: 'topic2',
-          name: 'topic2',
+          path: 'etopic2',
+          name: 'etopic2',
           component: ETopic2
         },
         {
-          path: 'topic3',
-          name: 'topic',
+          path: 'etopic3',
+          name: 'etopic',
           component: ETopic3
         },
         {
-          path: 'topic4',
-          name: 'topic4',
+          path: 'etopic4',
+          name: 'etopic4',
           component: ETopic4
         }
       ]
@@ -320,12 +332,22 @@ export default new Router({
         {
           path: 'ac-circuits',
           name: 'ac-circuits',
-          component: AC
+          component: ACCircuits
         },
         {
-          path: 'circular-motion',
-          name: 'circular-motion',
-          component: CircularMotion
+          path: 'application-of-light-waves',
+          name: 'application-of-light-waves',
+          component: ApplOfLightWaves
+        },
+        {
+          path: 'circular-and-shm',
+          name: 'circular-and-shm',
+          component: CircularAndSHM
+        },
+        {
+          path: 'conduction-through-fluids',
+          name: 'conduction-through-fluids',
+          component: ConductionThruFluids
         },
         {
           path: 'current-electricity',
@@ -333,19 +355,9 @@ export default new Router({
           component: CurrentElectricity
         },
         {
-          path: 'dimensional-analysis',
-          name: 'dimensional-analysis',
-          component: DimensionalAnalysis
-        },
-        {
-          path: 'elasticity',
-          name: 'elasticity',
-          component: Elasticity
-        },
-        {
-          path: 'electromagnetic-induction',
-          name: 'electromagnetic-induction',
-          component: ElectromagneticInduction
+          path: 'electric-field',
+          name: 'electric-field',
+          component: ElectricField
         },
         {
           path: 'electrostatics',
@@ -353,9 +365,39 @@ export default new Router({
           component: Electrostatics
         },
         {
+          path: 'electromagnetic-fields',
+          name: 'electromagnetic-fields',
+          component: EMFields
+        },
+        {
+          path: 'elasticity-matter-crystal-structure',
+          name: 'elasticity-matter-crystal-structure',
+          component: ENC
+        },
+        {
+          path: 'equilibrium',
+          name: 'equilibrium',
+          component: Equilibrium
+        },
+        {
+          path: 'expansivity',
+          name: 'expansivity',
+          component: Expansivity
+        },
+        {
+          path: 'fluids-at-rest-of-in-motion',
+          name: 'fluids-at-rest-of-in-motion',
+          component: FRM
+        },
+        {
           path: 'gas-laws',
           name: 'gas-laws',
           component: GasLaws
+        },
+        {
+          path: 'gravitational-field',
+          name: 'gravitational-field',
+          component: GravitationalField
         },
         {
           path: 'heat-energy',
@@ -363,44 +405,69 @@ export default new Router({
           component: HeatEnergy
         },
         {
-          path: 'linear-motion',
-          name: 'linear-motion',
-          component: LinearMotion
-        },
-        {
           path: 'measurements',
           name: 'measurements',
           component: Measurements
         },
         {
-          path: 'magnetic-fields',
-          name: 'magnetic-fields',
-          component: MagneticFields
+          path: 'motion',
+          name: 'motion',
+          component: Motion
         },
         {
-          path: 'quantum-mechanics',
-          name: 'quantum-mechanics',
-          component: QuantumMechanics
+          path: 'optical-instruments',
+          name: 'optical-instruments',
+          component: OpticalInstruments
         },
         {
-          path: 'nuclear-energy-and-radioactivity',
-          name: 'nuclear-energy-and-radioactivity',
-          component: Radioactivity
+          path: 'pressure-in-fluids',
+          name: 'pressure-in-fluids',
+          component: PressureInFluids
         },
         {
-          path: 'semiconductors',
-          name: 'semiconductors',
-          component: Semiconductors
+          path: 'qm-semiconductors',
+          name: 'qm-semiconductors',
+          component: QMSemiconductors
         },
         {
-          path: 'simple-harmonic-motion',
-          name: 'simple-harmonic-motion',
-          component: SimpleHarmonicMotion
+          path: 'radioactivity-and-nuclear-energy',
+          name: 'radioactivity-and-nuclear-energy',
+          component: RadioactivityNuclearEnergy
         },
         {
-          path: 'temperature-and-thermometry',
-          name: 'temperature-and-thermometry',
-          component: Temperature
+          path: 'reflection-of-light',
+          name: 'reflection-of-light',
+          component: ReflectionOfLight
+        },
+        {
+          path: 'refraction-of-light',
+          name: 'refraction-of-light',
+          component: RefractionOfLight
+        },
+        {
+          path: 'scalars-and-vectors',
+          name: 'scalars-and-vectors',
+          component: ScalarsVectors
+        },
+        {
+          path: 'simple-machines',
+          name: 'simple-machines',
+          component: SimpleMachines
+        },
+        {
+          path: 'sound-waves',
+          name: 'sound-waves',
+          component: SoundWaves
+        },
+        {
+          path: 'waves',
+          name: 'waves',
+          component: Waves
+        },
+        {
+          path: 'work-energy-power',
+          name: 'work-energy-power',
+          component: WorkEnergyPower
         }
       ]
     },
