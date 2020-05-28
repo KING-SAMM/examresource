@@ -38,7 +38,7 @@ import EconomicsLinks from './EconomicsLinks.vue';
 import SelectSubjectNav from './SelectSubjectNav.vue';
 
 export default {
-    name: 'EconomicsTopicsNav',
+    name: 'economicsTopicsNav',
     components: {
       EconomicsLinks,
       SelectSubjectNav

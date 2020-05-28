@@ -23,6 +23,16 @@
                 <b-dropdown-item to="/math/number-systems" exact exact-active-class="active">Number Bases</b-dropdown-item>
                 <b-dropdown-item to="/math/permutation-and-combination" exact exact-active-class="active">Permutation and Combination</b-dropdown-item>
                 <b-dropdown-item to="/math/plane-geometry" exact exact-active-class="active">Plane Geometry</b-dropdown-item>
+                <b-dropdown-item to="/math/polynomials" exact exact-active-class="active">Polynomials</b-dropdown-item>
+                <b-dropdown-item to="/math/probability" exact exact-active-class="active">Probability</b-dropdown-item>
+                <b-dropdown-item to="/math/quadratic-equations" exact exact-active-class="active">Quadratic Equations</b-dropdown-item>
+                <b-dropdown-item to="/math/progression" exact exact-active-class="active">Progression</b-dropdown-item>
+                <b-dropdown-item to="/math/sets" exact exact-active-class="active">Sets</b-dropdown-item>
+                <b-dropdown-item to="/math/simultaneous-equations" exact exact-active-class="active">Simultaneous Equations</b-dropdown-item>
+                <b-dropdown-item to="/math/statistics" exact exact-active-class="active">Statistics</b-dropdown-item>
+                <b-dropdown-item to="/math/surds" exact exact-active-class="active">Surds</b-dropdown-item>
+                <b-dropdown-item to="/math/trigonometry" exact exact-active-class="active">Trigonometry</b-dropdown-item>
+                <b-dropdown-item to="/math/variation" exact exact-active-class="active">Variation</b-dropdown-item>            
             </b-nav-item-dropdown>
         </b-navbar-nav>
     </div>

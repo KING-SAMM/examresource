@@ -8,15 +8,15 @@
             <p>Start exploring Economics resources and questions by topic</p>
         </div>
         <b-list-group>
-            <b-list-group-item to="economics/etopic1">Topic 1</b-list-group-item>
-            <b-list-group-item to="economics/etopic2" variant="primary">Topic 2</b-list-group-item>
-            <b-list-group-item to="economics/etopic3" variant="secondary">Topic 3</b-list-group-item>
-            <b-list-group-item to="economics/etopic4" variant="success">Topic 4</b-list-group-item>
-            <b-list-group-item to="economics/etopic5" variant="danger">Topic 5</b-list-group-item>
-            <b-list-group-item to="economics/etopic6" variant="warning">Topic 6</b-list-group-item>
-            <b-list-group-item to="economics/etopic7" variant="info">Topic 7</b-list-group-item>
-            <b-list-group-item to="economics/etopic8" variant="light">Topic 8</b-list-group-item>
-            <b-list-group-item to="economics/etopic9" variant="dark">Topic 9</b-list-group-item>
+            <b-list-group-item to="/economics/etopic1">Topic 1</b-list-group-item>
+            <b-list-group-item to="/economics/etopic2" variant="primary">Topic 2</b-list-group-item>
+            <b-list-group-item to="/economics/etopic3" variant="secondary">Topic 3</b-list-group-item>
+            <b-list-group-item to="/economics/etopic4" variant="success">Topic 4</b-list-group-item>
+            <b-list-group-item to="/economics/etopic5" variant="danger">Topic 5</b-list-group-item>
+            <b-list-group-item to="/economics/etopic6" variant="warning">Topic 6</b-list-group-item>
+            <b-list-group-item to="/economics/etopic7" variant="info">Topic 7</b-list-group-item>
+            <b-list-group-item to="/economics/etopic8" variant="light">Topic 8</b-list-group-item>
+            <b-list-group-item to="/economics/etopic9" variant="dark">Topic 9</b-list-group-item>
         </b-list-group>
     </div>
 </template>

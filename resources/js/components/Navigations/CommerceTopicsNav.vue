@@ -38,7 +38,7 @@ import CommerceLinks from './CommerceLinks.vue';
 import SelectSubjectNav from './SelectSubjectNav.vue';
 
 export default {
-    name: 'CommerceTopicsNav',
+    name: 'commerceTopicsNav',
     components: {
       CommerceLinks,
       SelectSubjectNav

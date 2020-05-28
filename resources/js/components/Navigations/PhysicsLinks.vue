@@ -23,6 +23,13 @@
                 <b-dropdown-item to="/physics/pressure-in-fluids" exact exact-active-class="active">Pressure in Fluids</b-dropdown-item>
                 <b-dropdown-item to="/physics/qm-semiconductors" exact exact-active-class="active">Quantum Mechanics and Semiconductors</b-dropdown-item>
                 <b-dropdown-item to="/physics/radioactivity-and-nuclear-energy" exact exact-active-class="active">Radioactivity and Nuclear Energy</b-dropdown-item>
+                <b-dropdown-item to="/physics/reflection-of-light" exact exact-active-class="active">Reflection of Light</b-dropdown-item>
+                <b-dropdown-item to="/physics/refraction-of-light" exact exact-active-class="active">Refraction of Light</b-dropdown-item>
+                <b-dropdown-item to="/physics/scalars-and-vectors" exact exact-active-class="active">Scalars and Vectors</b-dropdown-item>
+                <b-dropdown-item to="/physics/simple-machines" exact exact-active-class="active">Simple Machines</b-dropdown-item>
+                <b-dropdown-item to="/physics/sound-waves" exact exact-active-class="active">Sound Waves</b-dropdown-item>
+                <b-dropdown-item to="/physics/waves" exact exact-active-class="active">Waves</b-dropdown-item>
+                <b-dropdown-item to="/physics/work-energy-power" exact exact-active-class="active">Work, Energy and Power</b-dropdown-item>
             </b-nav-item-dropdown>
         </b-navbar-nav>
     </div>

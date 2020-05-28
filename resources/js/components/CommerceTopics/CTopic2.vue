@@ -6,6 +6,6 @@
 
 <script>
   export default {
-      name: 'btopic2'
+      name: 'ctopic2'
   }
 </script>

@@ -29,7 +29,14 @@ import ETopic1 from './views/EconomicsTopics/ETopic1.vue';
 import ETopic2 from './views/EconomicsTopics/ETopic2.vue';
 import ETopic3 from './views/EconomicsTopics/ETopic3.vue';
 import ETopic4 from './views/EconomicsTopics/ETopic4.vue';
+
+/* English */
 import English from './views/English.vue';
+import EngTopic1 from './views/EnglishTopics/EngTopic1.vue';
+import EngTopic2 from './views/EnglishTopics/EngTopic2.vue';
+import EngTopic3 from './views/EnglishTopics/EngTopic3.vue';
+import EngTopic4 from './views/EnglishTopics/EngTopic4.vue';
+
 
 /* Government */
 import Government from './views/Government.vue';
@@ -252,8 +259,35 @@ export default new Router({
     },
     {
       path: '/english',
-      name: 'english',
-      component: English
+      name: 'englishview',
+      component: () => import('./views/EnglishView.vue'),
+      children: [
+        {
+          path: '',
+          name: 'english',
+          component: English
+        },
+        {
+          path: 'engtopic1',
+          name: 'engtopic1',
+          component: EngTopic1
+        },
+        {
+          path: 'engtopic2',
+          name: 'engtopic2',
+          component: EngTopic2
+        },
+        {
+          path: 'engtopic3',
+          name: 'engtopic',
+          component: EngTopic3
+        },
+        {
+          path: 'engtopic4',
+          name: 'engtopic4',
+          component: EngTopic4
+        }
+      ]
     },
     {
       path: '/government',
@@ -266,23 +300,23 @@ export default new Router({
           component: Government
         },
         {
-          path: 'topic1',
-          name: 'topic1',
+          path: 'gtopic1',
+          name: 'gtopic1',
           component: GTopic1
         },
         {
-          path: 'topic2',
-          name: 'topic2',
+          path: 'gtopic2',
+          name: 'gtopic2',
           component: GTopic2
         },
         {
-          path: 'topic3',
-          name: 'topic',
+          path: 'gtopic3',
+          name: 'gtopic3',
           component: GTopic3
         },
         {
-          path: 'topic4',
-          name: 'topic4',
+          path: 'gtopic4',
+          name: 'gtopic4',
           component: GTopic4
         }
       ]
@@ -298,23 +332,23 @@ export default new Router({
           component: Literature
         },
         {
-          path: 'topic1',
-          name: 'topic1',
+          path: 'ltopic1',
+          name: 'ltopic1',
           component: LTopic1
         },
         {
-          path: 'topic2',
-          name: 'topic2',
+          path: 'ltopic2',
+          name: 'ltopic2',
           component: LTopic2
         },
         {
-          path: 'topic3',
-          name: 'topic',
+          path: 'ltopic3',
+          name: 'ltopic3',
           component: LTopic3
         },
         {
-          path: 'topic4',
-          name: 'topic4',
+          path: 'ltopic4',
+          name: 'ltopic4',
           component: LTopic4
         }
       ]
