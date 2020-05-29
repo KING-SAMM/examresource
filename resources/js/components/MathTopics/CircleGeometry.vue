@@ -19,10 +19,10 @@
             <b-card-text>{{ question1 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
             <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS1_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS1_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text>
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL1_SHORT80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL1_SHORT80.png')"></b-img>
               <!-- <br>{{ fullSolution1[3] }}<br>{{ fullSolution1[4] }}
               <br>{{ fullSolution1[5] }}<br>{{ fullSolution1[8] }}
               <br>{{ fullSolution1[10] }}<br>{{ fullSolution1[11] }}
@@ -30,7 +30,7 @@
               <div>&nbsp;</div>
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL1_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL1_80.png')"></b-img>
               <!-- <br>{{ fullSolution1[1] }}<br>{{ fullSolution1[2] }}
               <br>{{ fullSolution1[3] }}<br>{{ fullSolution1[4] }}
               <br>{{ fullSolution1[5] }}<br>{{ fullSolution1[6] }}
@@ -51,14 +51,14 @@
             <b-card-text>{{ question2 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
             <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS2_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS2_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL2_SHORT80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL2_SHORT80.png')"></b-img>
               <div>&nbsp;</div>
             </b-collapse>
             <b-collapse id="full">
-               <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL2_80.png')"></b-img>
+               <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL2_80.png')"></b-img>
             </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -73,14 +73,14 @@
             <b-card-text>{{ question3 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL3_SHORT80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL3_SHORT80.png')"></b-img>
               <div>&nbsp;</div>
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL3_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL3_80.png')"></b-img>
             </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -95,14 +95,14 @@
             <b-card-text>{{ question4 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
             <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS4_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS4_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL4_SHORT80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL4_SHORT80.png')"></b-img>
               <div>&nbsp;</div>
             </b-collapse>
             <b-collapse id="full">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL4_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL4_80.png')"></b-img>
               </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -117,14 +117,14 @@
             <b-card-text>{{ question5 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL3_SHORT80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL3_SHORT80.png')"></b-img>
               <div>&nbsp;</div>
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_SOL3_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_SOL3_80.png')"></b-img>
             </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -137,8 +137,8 @@
 </template>
 
 <script>
-import {GEO_CIRCLE_Q1, GEO_CIRCLE_Q2, GEO_CIRCLE_Q3, GEO_CIRCLE_Q4, GEO_CIRCLE_Q5} from '../../Mathematics/Geometry/questions.js';
-import {GEO_COORD_SOL1, GEO_COORD_SOL2, GEO_COORD_SOL3, GEO_COORD_SOL4} from '../../Mathematics/Geometry/solutions.js';
+import {GEO_CIRCLE_Q1, GEO_CIRCLE_Q2, GEO_CIRCLE_Q3, GEO_CIRCLE_Q4, GEO_CIRCLE_Q5} from '../../QuestionsAndSolutions/Mathematics/Geometry/questions.js';
+import {GEO_COORD_SOL1, GEO_COORD_SOL2, GEO_COORD_SOL3, GEO_COORD_SOL4} from '../../QuestionsAndSolutions/Mathematics/Geometry/solutions.js';
   
   export default {
     data() {

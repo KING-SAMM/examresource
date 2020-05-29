@@ -10,19 +10,19 @@
 
         <b-list-group>
           <b-list-group-item to="/physics/ac-circuits">A.C Circuits</b-list-group-item>
-          <b-list-group-item to="/physics/application-of-sound-waves" variant="primary">Application of Light WAves</b-list-group-item>
+          <b-list-group-item to="/physics/application-of-light-waves" variant="primary">Application of Light Waves</b-list-group-item>
           <b-list-group-item to="/physics/circular-and-shm" variant="secondary">Circular and Simple Harmonic Motion</b-list-group-item>
-          <b-list-group-item to="/physics/conduction-through-liquids" variant="success">Conduction Through Fluids</b-list-group-item>
-          <b-list-group-item to="/physics/matter" variant="danger">Current Electricity</b-list-group-item>
+          <b-list-group-item to="/physics/conduction-through-fluids" variant="success">Conduction Through Fluids</b-list-group-item>
+          <b-list-group-item to="/physics/current-electricity" variant="danger">Current Electricity</b-list-group-item>
           <b-list-group-item to="/physics/electric-field" variant="warning">Electric Field</b-list-group-item>
           <b-list-group-item to="/physics/electrostatics" variant="info">Electrostatics</b-list-group-item>
           <b-list-group-item to="/physics/electromagnetic-fields" variant="light">Electromagnetic Fields</b-list-group-item>
-          <b-list-group-item to="/physics/wlasticity-matter-crystal-structure" variant="dark">Elasticity/Nature of Matter/Crystal Structure</b-list-group-item>
+          <b-list-group-item to="/physics/elasticity-matter-crystal-structure" variant="dark">Elasticity/Nature of Matter/Crystal Structure</b-list-group-item>
           <b-list-group-item to="/physics/equilibrium">Equilibrium</b-list-group-item>
           <b-list-group-item to="/physics/expansivity" variant="primary">Expansivity</b-list-group-item>
           <b-list-group-item to="/physics/fluids-at-rest-or-in-motion" variant="secondary">Fluids at Rest or in Motion</b-list-group-item>
           <b-list-group-item to="/physics/gas-laws" variant="success">Gas Laws</b-list-group-item>
-          <b-list-group-item to="/physics/gravitional-field" variant="danger">Gravitational Field</b-list-group-item>
+          <b-list-group-item to="/physics/gravitational-field" variant="danger">Gravitational Field</b-list-group-item>
           <b-list-group-item to="/physics/heat-energy" variant="warning">Heat Energy</b-list-group-item>
           <b-list-group-item to="/physics/measurements" variant="info">Measurements</b-list-group-item>
           <b-list-group-item to="/physics/motion" variant="light">Motion</b-list-group-item>

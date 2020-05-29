@@ -21,7 +21,7 @@
                 <b-dropdown-item to="/physics/motion" exact exact-active-class="active">Motion</b-dropdown-item>
                 <b-dropdown-item to="/physics/optical-instruments" exact exact-active-class="active">Optical Instruments</b-dropdown-item>
                 <b-dropdown-item to="/physics/pressure-in-fluids" exact exact-active-class="active">Pressure in Fluids</b-dropdown-item>
-                <b-dropdown-item to="/physics/qm-semiconductors" exact exact-active-class="active">Quantum Mechanics and Semiconductors</b-dropdown-item>
+                <b-dropdown-item to="/physics/qm-semiconductors" exact exact-active-class="active">Quantum Mechanics and <br>Semiconductors</b-dropdown-item>
                 <b-dropdown-item to="/physics/radioactivity-and-nuclear-energy" exact exact-active-class="active">Radioactivity and Nuclear Energy</b-dropdown-item>
                 <b-dropdown-item to="/physics/reflection-of-light" exact exact-active-class="active">Reflection of Light</b-dropdown-item>
                 <b-dropdown-item to="/physics/refraction-of-light" exact exact-active-class="active">Refraction of Light</b-dropdown-item>

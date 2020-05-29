@@ -18,7 +18,7 @@
             <b-card-text>{{ question1 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text>{{ shortSolution }}</b-card-text></b-collapse>
             <b-collapse id="full"><b-card-text>{{ fullSolution }}</b-card-text></b-collapse>
@@ -35,7 +35,7 @@
             <b-card-text>{{ question2 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text>{{ shortSolution2 }}</b-card-text></b-collapse>
             <b-collapse id="full"><b-card-text>{{ fullSolution2 }}</b-card-text></b-collapse>
@@ -52,7 +52,7 @@
             <b-card-text>{{ question3 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
               {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
@@ -75,7 +75,7 @@
             <b-card-text>{{ question4 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
               {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
@@ -98,7 +98,7 @@
             <b-card-text>{{ question5 }}</b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
-              <b-img :src="require('../../Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
+              <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
               {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
@@ -117,8 +117,8 @@
 </template>
 
 <script>
-  import {ANG_ANGLES_Q1, ANG_ANGLES_Q2, ANG_ANGLES_Q3, ANG_ANGLES_Q4, ANG_ANGLES_Q5} from '../../Mathematics/Angles/questions.js';
-  import {ANG_ANGLES_SOL2, ANG_ANGLES_SOL3} from '../../Mathematics/Angles/solutions.js';
+  import {ANG_ANGLES_Q1, ANG_ANGLES_Q2, ANG_ANGLES_Q3, ANG_ANGLES_Q4, ANG_ANGLES_Q5} from '../../QuestionsAndSolutions/Mathematics/Angles/questions.js';
+  import {ANG_ANGLES_SOL2, ANG_ANGLES_SOL3} from '../../QuestionsAndSolutions/Mathematics/Angles/solutions.js';
 
   export default {
       name: 'gravitational-field',

@@ -419,8 +419,8 @@ export default new Router({
           component: Expansivity
         },
         {
-          path: 'fluids-at-rest-of-in-motion',
-          name: 'fluids-at-rest-of-in-motion',
+          path: 'fluids-at-rest-or-in-motion',
+          name: 'fluids-at-rest-or-in-motion',
           component: FRM
         },
         {
