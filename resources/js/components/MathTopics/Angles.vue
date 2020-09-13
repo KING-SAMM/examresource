@@ -37,7 +37,7 @@
              <b-collapse id="answer">
               <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
-            <b-collapse id="short"><b-card-text>{{ shortSolution2 }}</b-card-text></b-collapse>
+            <b-collapse id="short"><b-card-text></b-card-text></b-collapse>
             <b-collapse id="full"><b-card-text>{{ fullSolution2 }}</b-card-text></b-collapse>
             </b-card-body>
         </b-collapse>
@@ -49,18 +49,15 @@
         </b-card-header>
         <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
             <b-card-body>
-            <b-card-text>{{ question3 }}</b-card-text>
+            <b-card-text><div>{{ question3 }}</div></b-card-text>
             <b-card-text><b-button variant="info" v-b-toggle.short>Short solution</b-button><b-button variant="info" v-b-toggle.full>Full solution</b-button><b-button variant="warning" v-b-toggle.answer>Answer</b-button></b-card-text>
              <b-collapse id="answer">
               <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
-              {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
+        
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <br>{{ fullSolution3[0] }}<br>{{ fullSolution3[1] }}
-              <br>{{ fullSolution3[2] }}<br>{{ fullSolution3[3] }}
-              <br>{{ fullSolution3[4] }}<br>{{ fullSolution3[5] }}
             </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -78,12 +75,9 @@
               <b-img :src="require('../../QuestionsAndSolutions/Mathematics/Geometry/GEO_COORD_ANS3_COPY_80.png')"></b-img>
             </b-collapse>
             <b-collapse id="short"><b-card-text text-tag="header">
-              {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
+
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <br>{{ fullSolution3[0] }}<br>{{ fullSolution3[1] }}
-              <br>{{ fullSolution3[2] }}<br>{{ fullSolution3[3] }}
-              <br>{{ fullSolution3[4] }}<br>{{ fullSolution3[5] }}
             </b-collapse>
             </b-card-body>
         </b-collapse>
@@ -104,9 +98,7 @@
               {{ fullSolution3[1] }}<br>{{ fullSolution3[3] }}<br>{{ fullSolution3[5] }}
             </b-card-text></b-collapse>
             <b-collapse id="full">
-              <br>{{ fullSolution3[0] }}<br>{{ fullSolution3[1] }}
-              <br>{{ fullSolution3[2] }}<br>{{ fullSolution3[3] }}
-              <br>{{ fullSolution3[4] }}<br>{{ fullSolution3[5] }}
+
             </b-collapse>
             </b-card-body>
         </b-collapse>

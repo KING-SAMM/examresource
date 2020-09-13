@@ -4,6 +4,8 @@ import App from './App.vue';
 import './bootstrap';
 import 'bootstrap';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+//import '/mathjax/';
+//import 'mathjax/es5/tex-chtml';
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)

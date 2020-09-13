@@ -7,7 +7,8 @@
 
 export const ANG_ANGLES_Q1 = `Angles Question 1`;
 export const ANG_ANGLES_Q2 = `Angles Question 2`;
-export const ANG_ANGLES_Q3 = `Angles Question 3`;
+export const ANG_ANGLES_Q3 = `Angles Question 3 When \\(a \\ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) ` + 
+                              `and they are $$x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a} \\ne \\zeta.$$`;
 export const ANG_ANGLES_Q4 = `Angles Question 4`;
 export const ANG_ANGLES_Q5 = `Angles Question 5`;
 
